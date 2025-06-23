@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精密射撃チャレンジ企画書</title>
+    <style>
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background-color: #fff;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .highlight {
+            background-color: #e8f6f3;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .revenue-box {
+            background-color: #fef9e7;
+            border: 2px solid #f39c12;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .revenue-box h3 {
+            color: #e67e22;
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .overview-item {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .overview-item strong {
+            color: #2c3e50;
+        }
+        .safety-section {
+            background-color: #fff5f5;
+            border: 1px solid #e74c3c;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .materials-table {
+            background-color: #f8f9fa;
+        }
+        .conclusion {
+            background-color: #e8f5e8;
+            border: 2px solid #27ae60;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>キャンパスフェスティバル<br>「精密射撃チャレンジ」企画書</h1>
+        
+        <h2>📋 企画概要</h2>
+        <div class="overview-grid">
+            <div class="overview-item">
+                <strong>イベント名:</strong><br>精密射撃チャレンジ
+            </div>
+            <div class="overview-item">
+                <strong>使用機材:</strong><br>東京マルイVSR-10リアルショック<br>（威力0.135J以下に調整済み）
+            </div>
+            <div class="overview-item">
+                <strong>料金:</strong><br>1プレイ（5発）300円
+            </div>
+            <div class="overview-item">
+                <strong>目標参加者数:</strong><br>1日100人
+            </div>
+        </div>
+
+        <h2>🎯 射的コース設定</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>距離</th>
+                    <th>ターゲット</th>
+                    <th>配点システム</th>
+                    <th>難易度</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7.5m</td>
+                    <td>直径2cmひし形</td>
+                    <td>赤圏（1cm以内）：2ポイント<br>青圏（2cm以内）：1ポイント</td>
+                    <td>初級</td>
+                </tr>
+                <tr>
+                    <td>9m</td>
+                    <td>同上</td>
+                    <td>赤圏（1cm以内）：3ポイント<br>青圏（2cm以内）：2ポイント</td>
+                    <td>中級</td>
+                </tr>
+                <tr>
+                    <td>10m</td>
+                    <td>同上</td>
+                    <td>赤圏（1cm以内）：4ポイント<br>青圏（2cm以内）：3ポイント</td>
+                    <td>上級</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>🏆 景品体系・原価計算</h2>
+        <div class="highlight">
+            <h3>仕入れ情報</h3>
+            <ul>
+                <li><strong>コインチョコレート:</strong> 100枚2,250円（22.5円/枚）</li>
+                <li><strong>お茶:</strong> 24個1,996円（83円/個）</li>
+            </ul>
+        </div>
+
+        <h3>ポイント別景品配布</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>合計ポイント</th>
+                    <th>景品内容</th>
+                    <th>原価</th>
+                    <th>原価率</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>15ポイント以上</td>
+                    <td>お茶1本 + チョコ2枚</td>
+                    <td>128円</td>
+                    <td>42.7%</td>
+                </tr>
+                <tr>
+                    <td>10-14ポイント</td>
+                    <td>チョコ4枚</td>
+                    <td>90円</td>
+                    <td>30.0%</td>
+                </tr>
+                <tr>
+                    <td>6-9ポイント</td>
+                    <td>チョコ3枚</td>
+                    <td>67.5円</td>
+                    <td>22.5%</td>
+                </tr>
+                <tr>
+                    <td>3-5ポイント</td>
+                    <td>チョコ2枚</td>
+                    <td>45円</td>
+                    <td>15.0%</td>
+                </tr>
+                <tr>
+                    <td>1-2ポイント</td>
+                    <td>チョコ1枚</td>
+                    <td>22.5円</td>
+                    <td>7.5%</td>
+                </tr>
+                <tr>
+                    <td>参加賞</td>
+                    <td>チョコ1枚</td>
+                    <td>22.5円</td>
+                    <td>7.5%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>💰 収益シミュレーション</h2>
+        <div class="revenue-box">
+            <h3>想定参加者分布（100人あたり）</h3>
+            <ul>
+                <li><strong>最高景品獲得者:</strong> 5人（128円×5 = 640円）</li>
+                <li><strong>中級景品獲得者:</strong> 15人（90円×15 = 1,350円）</li>
+                <li><strong>初級景品獲得者:</strong> 30人（67.5円×30 = 2,025円）</li>
+                <li><strong>参加賞レベル:</strong> 50人（45円×50 = 2,250円）</li>
+            </ul>
+            
+            <div style="margin-top: 20px; font-size: 18px;">
+                <div><strong>総景品原価:</strong> 6,265円</div>
+                <div><strong>総売上:</strong> 30,000円（300円×100人）</div>
+                <div style="color: #e74c3c; font-size: 20px;"><strong>粗利益:</strong> 23,735円（粗利率79.1%）</div>
+            </div>
+        </div>
+
+        <h2>🛡️ 安全対策</h2>
+        <div class="safety-section">
+            <h3>1. 防護設備</h3>
+            <ul>
+                <li>ビニール幕による周辺保護</li>
+                <li>跳弾防止幕の設置</li>
+            </ul>
+
+            <h3>2. 運営体制</h3>
+            <ul>
+                <li>射撃経験者による安全管理</li>
+                <li>1射手につき1名の監視員配置</li>
+            </ul>
+        </div>
+
+        <h2>📦 必要資材・準備物</h2>
+        <table class="materials-table">
+            <thead>
+                <tr>
+                    <th>項目</th>
+                    <th>数量</th>
+                    <th>備考</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VSR-10エアガン</td>
+                    <td>1丁</td>
+                    <td>未使用時はケースに格納</td>
+                </tr>
+                <tr>
+                    <td>BB弾（0.2g）</td>
+                    <td>約2,000発</td>
+                    <td>1日分</td>
+                </tr>
+                <tr>
+                    <td>ターゲット</td>
+                    <td>-</td>
+                    <td>交換用含む</td>
+                </tr>
+                <tr>
+                    <td>ビニール跳弾防止幕</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="conclusion">
+            この企画により、安全性を確保しつつ高い収益性と<br>
+            参加者満足度を両立できる射的イベントの運営が可能と思われます
+        </div> 
+    </div>
+</body>
+</html>
